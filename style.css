@@ -1,0 +1,75 @@
+*{
+    background-color: rgb(215, 193, 165);
+    /* overflow-y: hidden; */
+    /* overflow: hidden; */
+    /* background-image: url(Untitled\ design.png); */
+}
+
+/* body{
+    background-image: url('numbg.jpg');
+    opacity: 2;
+} */
+.text-center {
+    text-align: center;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Tilt Neon', cursive;
+    /* background-image: url('numbg.jpg'); */
+    /* background-image: url('bg.png'); */
+}
+
+.button:hover{
+    background-color: rgb(116, 60, 60);
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 3px 3px 4px;
+    background-color: rgb(193, 200, 205);
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 220px;
+    font-size: 20px;
+    margin: 0;
+    padding: 16px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px;
+    background-color: rgb(193, 200, 205);
+}
+
+.row input:hover{
+    background-color: rgb(116, 60, 60);
+}
